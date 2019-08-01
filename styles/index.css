@@ -28,9 +28,10 @@ font-family: 'Lato', sans-serif;
   p, a, button {
     font-family: 'Lato', sans-serif;
   }
-  
-  .App {
-    animation: fadein 2s;
+
+  .logo h1 {
+    margin: 0 auto;
+    text-align: center;
   }
   
   .home-page {
@@ -43,6 +44,11 @@ font-family: 'Lato', sans-serif;
     padding-bottom: 25px;
   }
   
+  .jumbotron img {
+    width: 90%;
+    border-radius: 1rem;
+    margin: 0 auto;
+  }
   .nav-links {
     display: flex;
     justify-content: center;
@@ -83,47 +89,7 @@ font-family: 'Lato', sans-serif;
     font-size: 1.75rem;
     line-height: 3rem;
   }
-  
-  .inventory-card {
-    width: 600px;
-    padding: 20px 0;
-    display: flex;
-    margin: 25px auto;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-  }
-  
-  .item-image {
-    padding: 25px;
-  }
-  
-  .item-info {
-    padding: 25px;
-  }
-  
-  .item-image img {
-    width: 200px;
-    height: 175px;
-    border-radius: 50%;
-  }
-  
-  form {
-    width: 700px;
-    padding: 20px 0;
-    display: flex;
-    margin: 25px auto;
-    flex-direction: column;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-  }
-  
-  .login-form {
-    animation: fadein 1s;
-  }
-  
-  .signup-form {
-    animation: fadein 1s;
-  }
+
   
   input {
     width: 350px;
@@ -144,7 +110,9 @@ font-family: 'Lato', sans-serif;
     border: 2px solid darkgray;
     cursor: pointer;
   }
-  
-  .protected-home {
-    animation: fadein 2s;
+
+  footer {
+    margin: 0 auto;
+    text-align: center;
   }
+  
